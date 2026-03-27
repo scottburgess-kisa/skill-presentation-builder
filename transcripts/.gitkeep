@@ -1,0 +1,18 @@
+# Input files for presentation building go here
+
+## File Types Supported:
+
+**Meeting Transcripts (required):**
+- Transcript of meeting discussing presentation requirements
+- Place directly in this folder
+
+**Supporting Materials (optional):**
+- Matrices and tables for data presentation
+- Quote collections for testimonials
+- Reference documents with key information
+- Charts or data exports
+
+## Organization:
+- Main transcript: Place directly in transcripts/
+- Supporting files: Can be in transcripts/ or transcripts/supporting-materials/
+- All file types: .txt, .docx, .csv, .xlsx, .md supported

@@ -1,0 +1,57 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Workflow working files (these are intermediate files)
+working/*.json
+
+# Output files (presentations are generated)
+output/*.pptx
+output/*.pdf
+
+# Example presentations (keep structure but not content)
+input/*.pptx
+!input/.gitkeep
+
+# Transcripts (user input files)
+transcripts/*.txt
+transcripts/*.docx
+transcripts/*.csv
+transcripts/*.xlsx
+transcripts/*.md
+transcripts/*.pdf
+transcripts/supporting-materials/*
+!transcripts/.gitkeep
+!transcripts/supporting-materials/.gitkeep
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
