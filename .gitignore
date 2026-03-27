@@ -1,3 +1,6 @@
+# Claude Code Configuration (completely ignored)
+.claude/
+
 # Python
 __pycache__/
 *.py[cod]
@@ -27,26 +30,23 @@ pip-delete-this-directory.txt
 ehthumbs.db
 Thumbs.db
 
-# Workflow working files (these are intermediate files)
-working/*.json
+# Working files directory - ignore all content but keep folder structure
+working/*
+!working/.gitkeep
 
-# Output files (presentations are generated)
-output/*.pptx
-output/*.pdf
+# Output directory - ignore all content but keep folder structure
+output/*
+!output/.gitkeep
 
-# Example presentations (keep structure but not content)
-input/*.pptx
+# Input directory - ignore all content but keep folder structure
+input/*
 !input/.gitkeep
 
-# Transcripts (user input files)
-transcripts/*.txt
-transcripts/*.docx
-transcripts/*.csv
-transcripts/*.xlsx
-transcripts/*.md
-transcripts/*.pdf
-transcripts/supporting-materials/*
+# Transcripts directory - ignore all content but keep folder structure
+transcripts/*
 !transcripts/.gitkeep
+!transcripts/supporting-materials/
+transcripts/supporting-materials/*
 !transcripts/supporting-materials/.gitkeep
 
 # Logs
