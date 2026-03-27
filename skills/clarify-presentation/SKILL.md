@@ -68,10 +68,14 @@ Ask focused questions only for identified gaps. Group questions by category:
 - "Are there competing priorities or objections to address?"
 
 ### 3. Question Prioritization
+**Limit: Maximum 5 questions per round**
+
 Ask questions in order of importance:
-1. **Critical gaps** that would prevent generation
+1. **Critical gaps** that would prevent generation (ask these first)
 2. **High-impact areas** that significantly affect quality
 3. **Enhancement questions** that would improve the final result
+
+If you have more than 5 questions total, prioritize the most critical ones for the first round and continue in subsequent rounds.
 
 ### 4. Response Integration
 For each answer:
@@ -163,6 +167,13 @@ Extend the original JSON with:
 ### Start with Context
 "Based on your transcript, I need to clarify a few details to create the best possible presentation."
 
+### Limit Questions Per Round
+**IMPORTANT:** Ask maximum 5 questions at a time to avoid overwhelming the user. If more clarification is needed:
+- Process the first 5 most critical questions
+- Wait for user responses and integrate them
+- Ask the next batch of up to 5 questions if needed
+- Continue in rounds until all gaps are filled
+
 ### Group Related Questions
 Don't jump between topics - ask all content questions, then structure questions, etc.
 
@@ -171,6 +182,13 @@ Don't jump between topics - ask all content questions, then structure questions,
 
 ### Validate Understanding
 After each group: "Let me confirm I understand [topic] correctly..."
+
+### Multi-Round Process
+If you have more than 5 questions:
+1. "I have a few questions to help create the best presentation. Let me start with the most important ones:"
+2. Ask first 5 questions
+3. After responses: "Thank you! I have a few more questions to ensure we get everything right:"
+4. Continue until all critical gaps are addressed
 
 ### Conclude Clearly
 "Great! I now have everything needed to generate your presentation."
